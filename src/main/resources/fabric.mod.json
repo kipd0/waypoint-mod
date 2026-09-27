@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "portalwaypoints",
+  "version": "${version}",
+  "name": "Portal Waypoints",
+  "description": "Client-side waypoints with automatic Overworld and Nether coordinate conversion.",
+  "authors": ["kipd0"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.kipd0.portalwaypoints.PortalWaypointsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
