@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "portalwaypoints",
   "version": "${version}",
-  "name": "Portal Waypoints",
+  "name": "simple waypoint",
   "description": "Client-side waypoints with automatic Overworld and Nether coordinate conversion.",
   "authors": ["kipd0"],
   "environment": "client",
