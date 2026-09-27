@@ -91,7 +91,7 @@ public final class PortalWaypointsClient implements ClientModInitializer {
         graphics.drawCenteredString(client.font, Component.literal(line3), centerX, 32, 0xFFFFD966);
 
         if (distance <= 4) {
-            String reached = nether ? "BUILD PORTAL HERE" : "WAYPOINT REACHED";
+            String reached = "WAYPOINT REACHED";
             graphics.drawCenteredString(client.font, Component.literal(reached), centerX, 43, 0xFF55FF55);
         }
     }
